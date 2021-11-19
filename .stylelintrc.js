@@ -1,7 +1,7 @@
 module.exports = {
   plugins: ['stylelint-order'],
   rules: {
-    "property-blacklist": ['float'],
+    "property-disallowed-list": ['float'],
     'order/properties-order': [
       {
         // Must be first.
