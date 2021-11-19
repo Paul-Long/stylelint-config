@@ -190,7 +190,6 @@ module.exports = {
       {
         // Box model.
         properties: [
-          'float',
           'aspect-ratio',
           'overflow',
           'overflow-x',
