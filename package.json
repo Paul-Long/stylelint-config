@@ -7,13 +7,11 @@
     "style-fix": "stylelint '**/*.css' --fix",
     "lint-staged": "lint-staged"
   },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm run lint-staged"
-    }
-  },
   "lint-staged": {
-    "**/*.{css,less}": ["npm run style-fix", "git add ."]
+    "**/*.{css,less}": [
+      "npm run style-fix",
+      "git add ."
+    ]
   },
   "repository": {
     "type": "git",
