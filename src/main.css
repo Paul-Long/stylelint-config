@@ -1,8 +1,8 @@
 .app {
   position: fixed;
   display: flex;
-  top: 0;
   width: 100px;
+  top: 0;
 }
 
 .agent {
